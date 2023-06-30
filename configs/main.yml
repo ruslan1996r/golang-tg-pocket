@@ -1,0 +1,15 @@
+db_file: "bot.db"
+
+bot_url: "https://t.me/golang_test_pocket_bot"
+
+messages:
+  responses:
+    start: "Hi! In order to save links in your Pocket account, you first need to give me access. To do this, follow the link:\n %s"
+    already_authorized: "You are already authorized. Just send link to save"
+    saved_successfully: "Link successfully saved"
+    unknown_command: "Unknown command"
+  errors:
+    default: "Unexpected error"
+    invalid_url: "Invalid URL"
+    unauthorized: "You are not authorized. Please, use /start command"
+    unable_to_save: "Something went wrong while saving the link"
